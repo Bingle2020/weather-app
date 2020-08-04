@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/set.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Weather Forecast</title>
+</head>
+
+<body>
+    <!-- 背景盒 -->
+    <div id="weather">
+        <div class="bg"></div>
+        <!-- 内容大盒子 -->
+        <div class="content">
+            <!-- 导航条 -->
+            <div class="nav">
+                <div class="location fl">
+                    <div class="img fl">
+                        <img src="./icon/locate.png" class="auto-img">
+                    </div>
+                    <span class="locate-city fr"></span>
+                </div>
+                <div class="search-box fr">
+                    <div class="input fl po-r">
+                        <input type="text">
+                        <ul class="record po-a">
+                            <li>广州</li>
+                            <li>深圳</li>
+                            <li>珠海</li>
+                            <li>汕头</li>
+                            <li>东莞</li>
+                        </ul>
+                    </div>
+                    <div class="search fr">
+                        <img src="./icon/search.png" class="auto-img">
+                    </div>
+                </div>
+            </div>
+            <!-- 今天天气 -->
+            <div class="nowaday">
+                <div class="city-icon po-r">
+                    <div class="lo po-a"></div>
+                    <div class="city-tmp fl">
+                        <p class="nowCity"></p>
+                    </div>
+                    <div class="cityIcon fr">
+                        <img class="auto-img">
+                    </div>
+                </div>
+                <div class="other-state">
+                    <div class="fl"></div>
+                </div>
+            </div>
+            <div class="hour23">
+                <div class="box-1">
+                    <ul class="lis-1">
+                        <!-- <li>
+                            <span class="now-tmp">32°</span>
+                            <div class="chart">
+                                <img src="" class="auto-img">
+                            </div>
+                            <span class="time">18:00</span>
+                        </li> -->
+                    </ul>
+                </div>
+                <div class="box-2">
+                    <ul class="lis-2">
+                        <!-- <li>
+                            <span class="now-tmp">32°</span>
+                            <div class="chart">
+                                <img src="" class="auto-img">
+                            </div>
+                            <span class="time">18:00</span>
+                        </li> -->
+                    </ul>
+                </div>
+
+            </div>
+            <div class="day9">
+                <div class="head po-r">
+                    <div class="arrow arrow-up po-a"></div>
+                    <div class="ve po-a"></div>
+                    <div class="arrow arrow-down po-a"></div>
+                </div>
+                <div class="body">
+                    <ul class="day-lis">
+                        <!-- <li class="po-r">
+                            <span class="date fl">2019/09/14</span>
+                            <div class="day9-icon mid">
+                                <img src="./icon/多云.png" class="auto-img">
+                            </div>
+                            <span class="date fr tr">34°/25°</span>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/jq3.4.1.js"></script>
+    <script src="./js/set.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
